@@ -9,12 +9,13 @@ namespace StudentsConsoleApp
     class Repository
     {
         internal static Repository repository;
-        public Student[] studentsv = new Student[10];
+        public Student[] students = new Student[10];
 
-        public void Add(Student student)
+        public void Add(Student students)
         { 
-            
+                     
         }
 
+       
     }
 }

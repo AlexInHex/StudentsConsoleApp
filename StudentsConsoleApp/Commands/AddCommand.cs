@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StudentsConsoleApp;
 
 namespace StudentsConsoleApp.Commands
 {
@@ -14,9 +15,6 @@ namespace StudentsConsoleApp.Commands
 
         }
 
-        public override string Execute()
-        {
-            return repository.Add();
-        }
+       
     }
 }

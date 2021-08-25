@@ -5,8 +5,11 @@ namespace StudentsConsoleApp
 {
     class Program
     {
+        
+
+
         static void Main(string[] args)
-        {
+        {       
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             Repository repository = new Repository();
@@ -16,6 +19,9 @@ namespace StudentsConsoleApp
             var result = command.Execute();
 
             Console.WriteLine(result);
+
+            
+            
             
         }
     }
